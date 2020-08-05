@@ -16,5 +16,8 @@ Contenu :
 	- Supprimer(Animal : Supprime un animal
 	- Afficher_animaux() : affiche tous les animaux du magasin
 	- Afficher_tresorerie() : affiche le montant de la tresorerie
-	- Acheter(Animal ou List<Animal>) : Achète un animal, l'ajoute à la liste et soustrait son prix à la trésorerie.
-	- Vendre
+	- Acheter(Animal) : Achète un animal, l'ajoute à la liste et soustrait son prix à la trésorerie.
+	- Acheter(List<Animal>) : Achete les animaux de la liste si la tresorerie est suffisante.
+	- Vendre(Animal) : Vend un animal, le supprime de la liste et ajoute son prix à la trésorerie.
+	- Vendre(List<Animal>) : Vend les animaux de la liste si le magasin les possède tous.
+	- AvoirUnAnimalDeTypeX(Type) : Return un animal du magasin du type donné en argument.
